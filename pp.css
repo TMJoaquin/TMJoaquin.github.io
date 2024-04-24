@@ -1,0 +1,26 @@
+.organigrama {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.apice, .linea-media, .staff-apoyo, .tecnoestructuras, .unidades-negocio {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.titulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contenido ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contenido ul li {
+    margin-bottom: 5px;
+}
