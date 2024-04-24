@@ -1,19 +1,18 @@
 .organigrama {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
     justify-content: space-around;
-    align-items: flex-start;
 }
 
 .apice, .linea-media, .staff-apoyo, .tecnoestructuras, .unidades-negocio {
-    width: 200px;
-    padding: 10px;
     border: 1px solid #ccc;
-    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 .titulo {
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
 .contenido ul {
